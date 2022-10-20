@@ -1,10 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImgOne from "../assets/img/1st.png";
-import projImgTwo from "../assets/img/2nd.png";
+import projImgOne from "../assets/img/first.png";
+import projImgTwo from "../assets/img/second.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/third.png";
 import projImg4 from "../assets/img/project-img5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -17,34 +17,40 @@ export const Projects = () => {
       title: "Winax Financial",
       description: "Finance and Loan Management",
       imgUrl: projImg1,
+      link:"https://winaxfinancial.web.app/"
     },
     {
       title: "Miss Belleza Nigeria",
       description: "Beauty and Entertainment",
       imgUrl: projImg2,
+      link:"https://miss-belleza.web.app/"
     },
     {
       title: "Disney Clone",
-      description: "Movies and Entertainment",
+      description: "Media and Entertainment",
       imgUrl: projImg4,
+      link:"https://disney-clone-20446.web.app/"
     },
   ];
 
   const firstProjects=[
    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Rockbliss Admin Panel",
+      description: "Hotel Management",
       imgUrl: projImgOne,
+      link:"https://rockblissadmin.web.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Gemahia",
+      description: "Civil Services and Engineering",
       imgUrl: projImgTwo,
+      link:"http://gemahia.com/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Netflix Clone",
+      description: "Media & Entertainment",
       imgUrl: projImg3,
+      link:"https://ayo-s-netflix-clone.web.app/"
     },
   ]
 
