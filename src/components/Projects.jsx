@@ -4,7 +4,7 @@ import projImgOne from "../assets/img/first.png";
 import projImgTwo from "../assets/img/second.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/third.png";
+import lagent from "../assets/img/la-agent.png";
 import projImg4 from "../assets/img/project-img5.png";
 import agent from "../assets/img/agent.png"
 import client from "../assets/img/rockbliss.png"
@@ -45,7 +45,7 @@ export const Projects = () => {
     {
       title: "LA Dashboard",
       description: "Afrimash Agent Network Management",
-      imgUrl: agent,
+      imgUrl: lagent,
       link:"https://guileless-pixie-05183c.netlify.app/"
     },
     {
