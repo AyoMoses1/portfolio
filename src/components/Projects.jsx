@@ -6,6 +6,8 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/third.png";
 import projImg4 from "../assets/img/project-img5.png";
+import agent from "../assets/img/agent.png"
+import client from "../assets/img/rockbliss.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -41,16 +43,16 @@ export const Projects = () => {
       link:"https://rockblissadmin.web.app/"
     },
     {
-      title: "Gemahia",
-      description: "Civil Services and Engineering",
-      imgUrl: projImgTwo,
-      link:"http://gemahia.com/"
+      title: "LA Dashboard",
+      description: "Afrimash Agent Network Management",
+      imgUrl: agent,
+      link:"https://guileless-pixie-05183c.netlify.app/"
     },
     {
-      title: "Netflix Clone",
-      description: "Media & Entertainment",
-      imgUrl: projImg3,
-      link:"https://ayo-s-netflix-clone.web.app/"
+      title: "Rockbliss Client",
+      description: "Hotel Management",
+      imgUrl: client,
+      link:"https://ayo-rockbliss-client.web.app/"
     },
   ]
 
