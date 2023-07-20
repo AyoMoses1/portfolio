@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImgOne from "../assets/img/first.png";
-import projImgTwo from "../assets/img/second.png";
+import timesheet from "../assets/img/timesheet.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import lagent from "../assets/img/la-agent.png";
-import projImg4 from "../assets/img/project-img5.png";
-import agent from "../assets/img/agent.png"
+import bettyx from "../assets/img/bettyx.png";
+import spotfx from "../assets/img/spotfx.png"
 import client from "../assets/img/rockbliss.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,43 +16,49 @@ export const Projects = () => {
 
   const secondProjects = [
     {
-      title: "Winax Financial",
-      description: "Finance and Loan Management",
-      imgUrl: projImg1,
-      link:"https://winaxfinancial.web.app/"
+      title: "Rockbliss Admin Panel",
+      description: "Hotel Management",
+      imgUrl: projImgOne,
+      link:"https://rockblissadmin.web.app/",
+      source: "https://github.com/AyoMoses1/Rockbliss-Admin"
     },
     {
       title: "Miss Belleza Nigeria",
       description: "Beauty and Entertainment",
       imgUrl: projImg2,
-      link:"https://miss-belleza.web.app/"
+      link:"https://miss-belleza.web.app/",
+      source: "https://github.com/AyoMoses1/MissBellezaNigeria"
     },
     {
-      title: "Disney Clone",
+      title: "Sporty Bettyx",
       description: "Media and Entertainment",
-      imgUrl: projImg4,
-      link:"https://disney-clone-20446.web.app/"
+      imgUrl: bettyx,
+      link:"https://bettyx-97b54.web.app/",
+      source: "https://github.com/AyoMoses1/bettyx"
     },
   ];
 
   const firstProjects=[
-   {
-      title: "Rockbliss Admin Panel",
-      description: "Hotel Management",
-      imgUrl: projImgOne,
-      link:"https://rockblissadmin.web.app/"
+    {
+      title: "Valon Timesheet",
+      description: "A project Management Tool",
+      imgUrl: timesheet,
+      link:"https://timesheet-valon.web.app/",
+      source: "https://github.com/AyoMoses1/timesheet"
     },
     {
-      title: "LA Dashboard",
-      description: "Afrimash Agent Network Management",
-      imgUrl: lagent,
-      link:"https://guileless-pixie-05183c.netlify.app/"
+      title: "SpotFX",
+      description: "A forex trading website",
+      imgUrl: spotfx,
+      link:"https://spotfxai.web.app/",
+      source: "https://github.com/AyoMoses1/myfxai"
     },
     {
       title: "Rockbliss Client",
       description: "Hotel Management",
       imgUrl: client,
-      link:"https://ayo-rockbliss-client.web.app/"
+      link:"https://ayo-rockbliss-client.web.app/",
+      source: "https://github.com/AyoMoses1/Rockbliss-Client"
     },
   ]
 
