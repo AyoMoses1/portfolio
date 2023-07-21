@@ -34,7 +34,11 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: "100%", height: "100%" }}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -77,22 +81,38 @@ export const NavBar = () => {
                   href="https://www.linkedin.com/in/ayomoses/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
                 >
-                  <img src={navIcon1} alt="" />
+                  <img
+                    src={navIcon1}
+                    alt=""
+                    style={{ width: "50%", height: "50%" }}
+                  />
                 </a>
                 <a
                   href="https://twitter.com/AyoMose71556683"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Twitter"
                 >
-                  <img src={navIcon2} alt="" />
+                  <img
+                    src={navIcon2}
+                    alt=""
+                    style={{ width: "50%", height: "50%" }}
+                  />
                 </a>
                 <a
                   href="https://github.com/AyoMoses1"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="github"
                 >
-                  <img src={navIcon3} alt="" className="git" />
+                  <img
+                    src={navIcon3}
+                    alt=""
+                    className="git"
+                    style={{ width: "50%", height: "50%" }}
+                  />
                 </a>
               </div>
               <HashLink to="#connect">

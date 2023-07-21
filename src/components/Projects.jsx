@@ -2,9 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImgOne from "../assets/img/first.png";
 import timesheet from "../assets/img/timesheet.png";
-import projImg1 from "../assets/img/project-img1.png";
 import oilcroft from "../assets/img/oilcroft.png";
-import lagent from "../assets/img/la-agent.png";
 import bettyx from "../assets/img/bettyx.png";
 import tenzies from "../assets/img/tenzies.png";
 import client from "../assets/img/rockbliss.png";
@@ -134,7 +132,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="project"></img>
     </section>
   );
 };
