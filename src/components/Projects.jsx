@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImgOne from "../assets/img/first.png";
+import shachar from "../assets/img/shachar.png";
+import spotfxai from "../assets/img/spotfxai.png";
 import timesheet from "../assets/img/timesheet.png";
 import oilcroft from "../assets/img/oilcroft.png";
 import bettyx from "../assets/img/bettyx.png";
@@ -39,20 +41,20 @@ export const Projects = () => {
 
   const firstProjects = [
     {
-      title: "Valon Timesheet",
+      title: "Timesheet",
       description:
-        " The timesheet app is a productivity tool that optimizes clock-ins, simplifies task assignments, and enhances project management.",
+        "A project management/clock in tool for employee management. Built with the React, Node and Express",
       imgUrl: timesheet,
       link: "https://timesheet-valon.web.app/",
-      source: "https://github.com/AyoMoses1/timesheet",
+      source: "https://github.com/AyoMoses1/valon-timesheet",
     },
     {
-      title: "Tenzies",
+      title: "MyFXai",
       description:
-        "Enjoy the excitement of Tenzies! A fun and engaging dice game brought to life with React. Roll the dice and test your luck!",
-      imgUrl: tenzies,
-      link: "https://ayomoses1.github.io/Tenzies/",
-      source: "https://github.com/AyoMoses1/Tenzies",
+        "An ai forex trading web application built with React, TypeScript and Chakra UI",
+      imgUrl: spotfxai,
+      link: "https://spotfxai.web.app/",
+      source: "https://github.com/AyoMoses1/myfxai",
     },
     {
       title: "Rockbliss Client",
