@@ -1,12 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImgOne from "../assets/img/first.png";
+import projImgOne from "../assets/img/c2c.png";
 import shachar from "../assets/img/shachar.png";
 import spotfxai from "../assets/img/spotfxai.png";
 import timesheet from "../assets/img/timesheet.png";
-import oilcroft from "../assets/img/oilcroft.png";
-import bettyx from "../assets/img/bettyx.png";
-import tenzies from "../assets/img/tenzies.png";
+import hhes from "../assets/img/hhes.png";
+import ashefamu from "../assets/img/ashefamu.png";
 import client from "../assets/img/rockbliss.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -15,38 +14,20 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const secondProjects = [
     {
-      title: "Rockbliss Admin Panel",
+      title: "C2C Marketplace",
       description:
-        "An Admin Panel built for a serviced apartment web app! Manage bookings, payments, and apartments seamlessly with React and Redux",
+        "An E-commerce platform designed and developed for an agritech company to sell agricultural inputs to farmers",
       imgUrl: projImgOne,
-      link: "https://rockblissadmin.web.app/",
-      source: "https://github.com/AyoMoses1/Rockbliss-Admin",
+      link: "https://web.c2c.ng/",
+      // source: "https://github.com/AyoMoses1/Rockbliss-Admin",
     },
     {
-      title: "Oilcroft",
+      title: "HHES",
       description:
-        "This React-based website offers insights into the oil and gas industry, providing easy exploration and access to valuable information.",
-      imgUrl: oilcroft,
-      link: "https://oilcroft.com/",
-      source: "https://github.com/AyoMoses1/Oilcroft",
-    },
-    {
-      title: "Sporty Bettyx",
-      description: "Experience the thrill of betting on our dynamic platform! Bet on sports, games, and events with ease and security.",
-      imgUrl: bettyx,
-      link: "https://bettyx-97b54.web.app/",
-      source: "https://github.com/AyoMoses1/bettyx",
-    },
-  ];
-
-  const firstProjects = [
-    {
-      title: "Timesheet",
-      description:
-        "A project management/clock in tool for employee management. Built with the React, Node and Express",
-      imgUrl: timesheet,
-      link: "https://timesheet-valon.web.app/",
-      source: "https://github.com/AyoMoses1/valon-timesheet",
+        "A health care management app that helps agents of health care seeking accreditation in the US",
+      imgUrl: hhes,
+      link: "https://hhes-cg-platform-fe-v2.vercel.app/",
+      // source: "https://github.com/AyoMoses1/Oilcroft",
     },
     {
       title: "MyFXai",
@@ -55,6 +36,25 @@ export const Projects = () => {
       imgUrl: spotfxai,
       link: "https://spotfxai.web.app/",
       source: "https://github.com/AyoMoses1/myfxai",
+    },
+  ];
+
+  const firstProjects = [
+    {
+      title: "Ashefamu",
+      description:
+        "An app that helps streamline the monitoring and accreditation of health facilities in Anambra State, Nigeria",
+      imgUrl: ashefamu,
+      link: "https://e-ashefamu.anambrastate.gov.ng/",
+      source: "https://github.com/AyoMoses1/Ashefamu",
+    },
+    {
+      title: "Timesheet",
+      description:
+        "A project management/clock in tool for employee management. Built with the React, Node and Express",
+      imgUrl: timesheet,
+      link: "https://timesheet-valon.web.app/",
+      source: "https://github.com/AyoMoses1/valon-timesheet",
     },
     {
       title: "Rockbliss Client",
