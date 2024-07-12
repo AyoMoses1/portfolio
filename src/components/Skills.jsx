@@ -52,7 +52,7 @@ export const Skills = () => {
                     alt="skill1"
                     style={{ width: "150px", height: "150px" }}
                   />
-                  <h5>HTML5</h5>
+                  <h5>React Js</h5>
                 </div>
                 <div className="item">
                   <img
@@ -60,7 +60,15 @@ export const Skills = () => {
                     alt="skill1"
                     style={{ width: "150px", height: "150px" }}
                   />
-                  <h5>CSS3</h5>
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src={meter1}
+                    alt="skill1"
+                    style={{ width: "150px", height: "150px" }}
+                  />
+                  <h5>RestAPI</h5>
                 </div>
                 <div className="item">
                   <img
@@ -69,14 +77,6 @@ export const Skills = () => {
                     style={{ width: "150px", height: "150px" }}
                   />
                   <h5>Material UI</h5>
-                </div>
-                <div className="item">
-                  <img
-                    src={meter1}
-                    alt="skill1"
-                    style={{ width: "150px", height: "150px" }}
-                  />
-                  <h5>React Js</h5>
                 </div>
                 <div className="item">
                   <img
@@ -116,7 +116,7 @@ export const Skills = () => {
                     alt="skill2"
                     style={{ width: "150px", height: "150px" }}
                   />
-                  <h5>BOOTSTRAP</h5>
+                  <h5>PostgreSQL</h5>
                 </div>
               </Carousel>
             </div>
