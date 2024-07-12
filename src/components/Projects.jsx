@@ -14,14 +14,6 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const secondProjects = [
     {
-      title: "C2C Marketplace",
-      description:
-        "An E-commerce platform designed and developed for an agritech company to sell agricultural inputs to farmers",
-      imgUrl: projImgOne,
-      link: "https://web.c2c.ng/",
-      // source: "https://github.com/AyoMoses1/Rockbliss-Admin",
-    },
-    {
       title: "HHES",
       description:
         "A health care management app that helps agents of health care seeking accreditation in the US",
@@ -37,6 +29,14 @@ export const Projects = () => {
       link: "https://spotfxai.web.app/",
       source: "https://github.com/AyoMoses1/myfxai",
     },
+    {
+      title: "Timesheet",
+      description:
+        "A project management/clock in tool for employee management. Built with the React, Node and Express",
+      imgUrl: timesheet,
+      link: "https://timesheet-valon.web.app/",
+      source: "https://github.com/AyoMoses1/valon-timesheet",
+    },
   ];
 
   const firstProjects = [
@@ -49,12 +49,12 @@ export const Projects = () => {
       source: "https://github.com/AyoMoses1/Ashefamu",
     },
     {
-      title: "Timesheet",
+      title: "C2C Marketplace",
       description:
-        "A project management/clock in tool for employee management. Built with the React, Node and Express",
-      imgUrl: timesheet,
-      link: "https://timesheet-valon.web.app/",
-      source: "https://github.com/AyoMoses1/valon-timesheet",
+        "An E-commerce platform designed and developed for an agritech company to sell agricultural inputs to farmers",
+      imgUrl: projImgOne,
+      link: "https://web.c2c.ng/",
+      // source: "https://github.com/AyoMoses1/Rockbliss-Admin",
     },
     {
       title: "Rockbliss Client",
@@ -134,7 +134,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="project"></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="project"
+      ></img>
     </section>
   );
 };
